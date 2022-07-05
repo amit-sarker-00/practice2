@@ -106,6 +106,7 @@ p {
     color: white;
     margin-left: 0;
     margin-right: 20%;
+    margin-top: 15%;
 }
 
 .about .half-width {
@@ -119,4 +120,41 @@ p {
 .about {
     display: flex;
     background: black;
+}
+
+.content-for-image h2 {
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: tomato;
+    text-underline-offset: 5px;
+}
+
+.content-for-image p {
+    color: white;
+
+}
+
+#food {
+    background: black;
+    overflow: hidden;
+    display: flex;
+}
+
+.half {
+    width: 20%;
+    /*  border-left: 5px solid tomato; */
+    box-shadow: 3px 3px 2px rgba(246, 241, 241, 0.93);
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 6px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+}
+
+.half img {
+    width: 100%;
 }
